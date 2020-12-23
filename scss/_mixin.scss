@@ -1,0 +1,24 @@
+@import 'variables';
+
+@mixin navbar{
+	list-style-type:none;
+	display:inline-block;
+	color: $color;
+	font-family: $font;
+	font-size: $size;
+	margin: 25px;
+
+}
+
+
+@mixin values{
+	color: $htxt;
+	font-weight: bold;	
+	font-family: $font;
+	font-size: $size;
+}
+
+
+
+
+

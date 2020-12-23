@@ -1,0 +1,97 @@
+.wrapper {
+  width: 100%;
+  background-color: #edeee7;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #f5f6f0;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.navbar li {
+  list-style-type: none;
+  display: inline-block;
+  color: #d37b22;
+  font-family: arial;
+  font-size: 18px;
+  margin: 25px;
+}
+
+.navbar {
+  float: right;
+  transform: translate(-40px, -95px);
+}
+
+.home img {
+  width: 100%;
+  transform: translate(0px, -70px);
+}
+
+.dis {
+  width: 95%;
+  margin: 0 auto;
+  transform: translate(0px, -40px);
+}
+
+.dis p span {
+  color: #003c69;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 18px;
+}
+
+.dis p {
+  color: #5d564e;
+  font-family: arial;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.bdiv {
+  width: 28%;
+  border: 1px solid #d37b22;
+  background-color: #ededea;
+  margin: 0px 29px 60px 29px;
+  display: inline-block;
+}
+
+.bdiv div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bdiv div img {
+  width: 100%;
+}
+
+.bdiv div h2 {
+  color: #003c69;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 18px;
+}
+
+.bdiv div p {
+  color: #5d564e;
+  font-family: arial;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #72736d;
+  color: white;
+  padding: 7px 33px;
+  font-family: arial;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,97 @@
+@import "variables";
+@import 'mixin';
+
+
+.wrapper{
+width: $full;
+background-color: #edeee7;
+}
+
+.container{
+	width: 1200px;
+	margin: $auto;
+	background-color: #f5f6f0;
+}
+
+.header{
+	margin-top: 20px;
+}
+
+.logo{
+	margin-left: 20px;
+}
+
+.navbar li{
+@include navbar;
+}
+
+
+.navbar{
+	float: right;
+	transform: translate(-40px, -95px);
+
+}
+
+.home img{
+	width: $full;
+	transform: translate(0px, -70px);
+}
+
+.dis{
+	width: $dwidth;
+	margin: $auto;
+	transform: translate(0px, -40px);
+
+}
+
+
+.dis p span{
+@include values;
+}
+
+.dis p{
+	color: $txt;
+	font-family: $font;
+	font-size: $small;
+	line-height: 25px;
+}
+
+
+
+.bdiv{
+	width: 28%;
+	border: 1px solid $color;
+	background-color: #ededea;
+	margin: 0px 29px 60px 29px;
+	display:inline-block;
+}
+
+
+.bdiv div{
+	width: 90%;
+	margin: $auto;
+}
+
+.bdiv div img{ 
+width: $full;
+}
+
+.bdiv div h2{
+@include values;
+}
+
+.bdiv div p{
+	color: $txt;
+	font-family: $font;
+	font-size: $small;
+}
+
+footer{
+	background-color: #72736d;
+	color: white;
+	padding: 7px 33px;
+	font-family: $font;
+	font-size: 12px;
+}
+
+
